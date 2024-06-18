@@ -156,7 +156,7 @@ a {
 }
 .hero .hero__wrapper .hero__right {
   width: 714px;
-  height: 674px;
+  height: 534px;
   background-color: rgb(232, 232, 232);
   border-radius: 8px;
   display: flex;
@@ -168,4 +168,111 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.sale {
+  padding: 19px 100px;
+}
+.sale .sale__cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sale .sale__cards .sale__card {
+  width: 292px;
+  height: 436px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  padding: 10px;
+}
+.sale .sale__cards .sale__card img {
+  width: 100%;
+}
+.sale .sale__cards .sale__card h3 {
+  color: red;
+}
+.sale .sale__cards .sale__card button {
+  width: 100%;
+  height: 40px;
+  background-color: #FBD029;
+  border: 1px solid #FBD029;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 5px;
+  transition: 0.4s;
+}
+.sale .sale__cards .sale__card button:hover {
+  background-color: transparent;
+  border: 1px solid #FBD029;
+}
+.sale .sale__cards .sale__card button img {
+  width: 7%;
+}
+
+.footer {
+  margin-top: 50px;
+  background-color: #1F1D14;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 80px;
+}
+.footer .footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.footer .footer__img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer .footer__second {
+  margin-top: 55px;
+  color: white;
+}
+.footer .footer__third {
+  color: white;
+  width: 235px;
+  margin-top: 20px;
+}
+.footer .footer__fourth {
+  margin-top: 90px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer__fourth .footer__actions {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.footer .footer__fourth .footer__actions input {
+  width: 235px;
+  height: 40px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.footer .footer__fourth .footer__actions button {
+  width: 235px;
+  height: 40px;
+  background-color: #FBD029;
+  border: 1px solid #FBD029;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+.footer .footer__fourth .footer__actions button:hover {
+  background-color: transparent;
+  color: white;
 }
