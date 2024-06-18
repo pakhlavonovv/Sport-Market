@@ -1,0 +1,38 @@
+.necessary__bottom{
+    padding: 20px;
+    .necessary__wrapper{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        .necessary__left{
+            width: 608px;
+            height: 417px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            .necessary__left__bottom{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-top: 165px;
+                .necessary__left__bottom__p{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+            }
+        }
+    }
+    .necessary__btn{
+        margin-top: 30px;
+        padding: 15px 40px;
+        border: 1px solid #FBD029;
+        background-color: transparent;
+        border-radius: 5px;
+        transition: 0.4s;
+        &:hover{
+            background-color: #FBD029;
+        }
+    }
+}

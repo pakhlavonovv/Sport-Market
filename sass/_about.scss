@@ -1,0 +1,37 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #ededed;
+    padding: 50px;
+    .about__card{
+        margin-top: 50px;
+            display: flex;
+            align-items: center;
+            width: 1240px;
+            height: 367px;
+            background-color: #1F1D14;
+            border-radius: 8px;
+        p{
+            color: white;
+            width: 719px;
+            padding: 50px;
+            font-weight: 400;
+        }
+        .about__img{
+            margin-top: 150px;
+            padding: 260px;
+            cursor: pointer;
+        }
+    }
+    .about__companies{
+        margin-top: 70px;
+        background-color: white;
+        border-radius: 8px;
+        width: 1240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        cursor: pointer;
+    }
+}

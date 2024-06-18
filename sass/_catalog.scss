@@ -1,0 +1,82 @@
+.catalog {
+    padding: 19px 100px;
+
+    .catalog__cards {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+        .catalog__card {
+            width: 187px;
+            height: 247px;
+            background-color: #D3E5F2;
+            border-radius: 8px;
+            padding: 15px;
+            .catalog__card__info{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+        .catalog__card__s{
+            width: 187px;
+            height: 247px;
+            background-color: #E2C6BE;
+            border-radius: 8px;
+            padding: 15px;
+            .catalog__card__info{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+        .catalog__card__th{
+            width: 187px;
+            height: 247px;
+            background-color: #DADBE0;
+            border-radius: 8px;
+            padding: 15px;
+            .catalog__card__info{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+        .catalog__card__f{
+            width: 187px;
+            height: 247px;
+            background-color: #E2EEC0;
+            border-radius: 8px;
+            padding: 15px;
+            .catalog__card__info{
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+        }
+        .catalog__card__fth{
+            width: 187px;
+            height: 247px;
+            background-color: #C2BCE8;
+            border-radius: 8px;
+            padding: 15px;
+            .catalog__card__info{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        .catalog__card__sx{
+            width: 187px;
+            height: 247px;
+            background-color: #ABA520;
+            border-radius: 8px;
+            padding: 15px;
+            .catalog__card__info{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    }
+}

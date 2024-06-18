@@ -1,0 +1,79 @@
+.under__nav{
+    padding: 15px 340px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    .under__nav__left{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        button{
+            width: 184px;
+            height: 54px;
+            padding: 15px 40px;
+            border-radius: 5px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color:#1F1D14;
+            color: white;
+            transition: 0.4s;
+            &:hover{
+                box-shadow: 0 0 10px 0 rgb(41, 41, 41);
+                color: white;
+            }
+        }
+        .input__unnav{
+            width: 400px;
+            height: 46px;
+            background-color: rgb(231, 231, 231);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            padding: 30px;
+            input{
+                border: none;
+                background-color: transparent;
+                outline: none;
+            }
+            img{
+                cursor: pointer;
+            }
+
+        }
+    }
+    .under__nav__right{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .unnav__right__btns{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            button{
+                width: 45px;
+                height: 45px;
+                border-radius: 3px;
+                background-color: #dcdcdc;
+                border: none;
+            }
+        }
+        .unnav__right__btn__last{
+            width: 165px;
+            height: 53px;
+            border-radius: 3px;
+            background-color: #dcdcdc;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+    }
+}

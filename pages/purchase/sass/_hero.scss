@@ -1,0 +1,91 @@
+.hero{
+    width: 100%;
+    height: 75vh;
+    padding: 20px;
+    .hero__wrapper{
+        display: flex;
+        gap: 20px;
+        .hero__right{
+            width: 503px;
+            height: 500px;
+            background-color: rgb(232, 232, 232);
+            padding: 40px;
+            border-radius: 8px;
+            h3{
+                width: 307px;
+            }
+            p{
+                width: 371px;
+            }
+        }
+        .hero__right__info{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .hero__right__actions{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .hero__right__actions__f{
+                width: 145px;
+                height: 59px;
+                background-color: #FBD029;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #FBD029;
+                gap: 5px;
+                border-radius: 5px;
+                transition: 0.4s;
+                &:hover{
+                    background-color: transparent;
+                    border: 1px solid #FBD029;
+                }
+            }
+            .hero__right__actions__s{
+                width: 145px;
+                height: 59px;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #FBD029;
+                gap: 5px;
+                border-radius: 5px;
+                transition: 0.4s;
+                &:hover{
+                    background-color: #FBD029;
+                    border: 1px solid #FBD029;
+                }
+            }
+        }
+    }
+    .carousel{
+        background-color: rgb(232, 232, 232);
+        border-radius: 20px;
+        width: 800px;
+        height: 500px;
+        .carousel-item{
+            padding: 30px;
+            h5{
+                color: white;
+                font-size: 20px;
+            }
+			img{
+				margin-top: 50px;
+			}
+            button{
+                width: 165px;
+                height: 53px;
+                border-radius: 3px;
+                background-color: rgb(223, 223, 223);
+                border: 1px solid #FBD029;
+                transition: 0.4s;
+                &:hover{
+                    background-color: #FBD029;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.hero{
+    margin-top: 30px;
+    .hero__wrapper{
+        display: flex;
+        gap: 20px;
+    }
+    .hero__right__selectors{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        select{
+          width: 50%;  
+        }
+    }
+    .hero__right__filter{
+        width: 30%;
+        height: 522px;
+        background-color: white;
+        border-radius: 4px;
+        padding: 30px;
+        .form{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input{
+                width: 100%;
+                height: 40px;
+                background-color: #F2F2F2;
+                border-radius: 5px;
+                padding: 10px;
+                outline: none;
+                border: none;
+            }
+            select{
+                background-color: #F2F2F2;
+            }
+        }
+    }
+    .hero__filtr__inp{
+        accent-color: #FBD029;
+        input{
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+    }
+}

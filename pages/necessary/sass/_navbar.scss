@@ -1,0 +1,45 @@
+.navbar{
+    .navbar-logo{
+        font-size: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        a{
+            width: 116px;
+        }
+    }
+    .nav-item{
+            a{
+                color: white;
+                border-bottom: white;
+                padding: 5px;
+                &:hover{
+                    color: white;
+                    border-bottom: 1px solid;
+                }
+        }
+    }
+    .nav-item{
+        color: white;
+    }
+    .nav__right__list{
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        .nav__links{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

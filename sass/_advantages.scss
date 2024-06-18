@@ -1,0 +1,30 @@
+.advantages{
+    width: 100%;
+    background-color: #ededed;
+    padding: 10px;
+    .advantages__cards{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        .advantages__card{
+            width: 292px;
+            height: 289px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            img{
+                width: 52px;
+                height: 52px;
+            }
+            h5{
+                text-align: center;
+            }
+        }
+    }
+}

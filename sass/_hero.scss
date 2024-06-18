@@ -1,0 +1,64 @@
+.hero{
+    background-color: #c1c1c1;
+    width: 100%;
+    height: 75vh;
+    padding: 20px;
+    .hero__wrapper{
+        display: flex;
+        gap: 20px;
+    }
+    .carousel{
+        background-color: rgb(223, 223, 223);
+        border-radius: 20px;
+        width: 800px;
+        height: 500px;
+        .carousel-item{
+            padding: 30px;
+            h5{
+                color: white;
+                font-size: 20px;
+            }
+            button{
+                width: 165px;
+                height: 53px;
+                border-radius: 3px;
+                background-color: rgb(223, 223, 223);
+                border: 1px solid #FBD029;
+                transition: 0.4s;
+                &:hover{
+                    background-color: #FBD029;
+                }
+            }
+        }
+    }
+    .hero__right{
+        .hero__card__wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .hero__card{
+                width: 397px;
+                height: 237px;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                gap: -10px;
+                background-color: rgb(232, 232, 232);
+                padding: 20px;
+                .hero__card__info{
+                    margin-top: -50px;
+                    h3{
+                        color: red;
+                        width: 200px;
+                    }
+                }
+                .hero__card__img {
+                    .bag-img{
+                        margin-top: -150px;
+                    }
+                }
+            }
+        }
+    }
+}

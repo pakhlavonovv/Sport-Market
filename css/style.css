@@ -1,0 +1,512 @@
+.navbar .navbar-logo {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .navbar-logo a {
+  width: 116px;
+}
+.navbar .nav-item a {
+  color: white;
+  border-bottom: white;
+  padding: 5px;
+}
+.navbar .nav-item a:hover {
+  color: white;
+  border-bottom: 1px solid;
+}
+.navbar .nav-item {
+  color: white;
+}
+.navbar .nav__right__list {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar .nav__right__list img {
+  width: 20px;
+  height: 20px;
+}
+.navbar .nav__right__list .nav__links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .nav__right__list .nav__links a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.under__nav {
+  padding: 15px 340px;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.under__nav .under__nav__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.under__nav .under__nav__left button {
+  width: 184px;
+  height: 54px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1F1D14;
+  color: white;
+  transition: 0.4s;
+}
+.under__nav .under__nav__left button:hover {
+  box-shadow: 0 0 10px 0 rgb(41, 41, 41);
+  color: white;
+}
+.under__nav .under__nav__left .input__unnav {
+  width: 400px;
+  height: 46px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 30px;
+}
+.under__nav .under__nav__left .input__unnav input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.under__nav .under__nav__left .input__unnav img {
+  cursor: pointer;
+}
+.under__nav .under__nav__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.under__nav .under__nav__right .unnav__right__btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.under__nav .under__nav__right .unnav__right__btns button {
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #dcdcdc;
+  border: none;
+}
+.under__nav .under__nav__right .unnav__right__btn__last {
+  width: 165px;
+  height: 53px;
+  border-radius: 3px;
+  background-color: #dcdcdc;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero {
+  background-color: #c1c1c1;
+  width: 100%;
+  height: 75vh;
+  padding: 20px;
+}
+.hero .hero__wrapper {
+  display: flex;
+  gap: 20px;
+}
+.hero .carousel {
+  background-color: rgb(223, 223, 223);
+  border-radius: 20px;
+  width: 800px;
+  height: 500px;
+}
+.hero .carousel .carousel-item {
+  padding: 30px;
+}
+.hero .carousel .carousel-item h5 {
+  color: white;
+  font-size: 20px;
+}
+.hero .carousel .carousel-item button {
+  width: 165px;
+  height: 53px;
+  border-radius: 3px;
+  background-color: rgb(223, 223, 223);
+  border: 1px solid #FBD029;
+  transition: 0.4s;
+}
+.hero .carousel .carousel-item button:hover {
+  background-color: #FBD029;
+}
+.hero .hero__right .hero__card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero .hero__right .hero__card__wrapper .hero__card {
+  width: 397px;
+  height: 237px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: -10px;
+  background-color: rgb(232, 232, 232);
+  padding: 20px;
+}
+.hero .hero__right .hero__card__wrapper .hero__card .hero__card__info {
+  margin-top: -50px;
+}
+.hero .hero__right .hero__card__wrapper .hero__card .hero__card__info h3 {
+  color: red;
+  width: 200px;
+}
+.hero .hero__right .hero__card__wrapper .hero__card .hero__card__img .bag-img {
+  margin-top: -150px;
+}
+
+.catalog {
+  padding: 19px 100px;
+}
+.catalog .catalog__cards {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.catalog .catalog__cards .catalog__card {
+  width: 187px;
+  height: 247px;
+  background-color: #D3E5F2;
+  border-radius: 8px;
+  padding: 15px;
+}
+.catalog .catalog__cards .catalog__card .catalog__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.catalog .catalog__cards .catalog__card__s {
+  width: 187px;
+  height: 247px;
+  background-color: #E2C6BE;
+  border-radius: 8px;
+  padding: 15px;
+}
+.catalog .catalog__cards .catalog__card__s .catalog__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.catalog .catalog__cards .catalog__card__th {
+  width: 187px;
+  height: 247px;
+  background-color: #DADBE0;
+  border-radius: 8px;
+  padding: 15px;
+}
+.catalog .catalog__cards .catalog__card__th .catalog__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.catalog .catalog__cards .catalog__card__f {
+  width: 187px;
+  height: 247px;
+  background-color: #E2EEC0;
+  border-radius: 8px;
+  padding: 15px;
+}
+.catalog .catalog__cards .catalog__card__f .catalog__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.catalog .catalog__cards .catalog__card__fth {
+  width: 187px;
+  height: 247px;
+  background-color: #C2BCE8;
+  border-radius: 8px;
+  padding: 15px;
+}
+.catalog .catalog__cards .catalog__card__fth .catalog__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.catalog .catalog__cards .catalog__card__sx {
+  width: 187px;
+  height: 247px;
+  background-color: #ABA520;
+  border-radius: 8px;
+  padding: 15px;
+}
+.catalog .catalog__cards .catalog__card__sx .catalog__card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sale {
+  padding: 19px 100px;
+  background-color: #ededed;
+}
+.sale .sale__cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sale .sale__cards .sale__card {
+  width: 292px;
+  height: 436px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  padding: 10px;
+}
+.sale .sale__cards .sale__card img {
+  width: 100%;
+}
+.sale .sale__cards .sale__card h3 {
+  color: red;
+}
+.sale .sale__cards .sale__card button {
+  width: 100%;
+  height: 40px;
+  background-color: #FBD029;
+  border: 1px solid #FBD029;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 5px;
+  transition: 0.4s;
+}
+.sale .sale__cards .sale__card button:hover {
+  background-color: transparent;
+  border: 1px solid #FBD029;
+}
+.sale .sale__cards .sale__card button img {
+  width: 7%;
+}
+
+.necessary {
+  background-color: #ededed;
+  width: 100%;
+  height: 80vh;
+  padding: 50px;
+  text-decoration: none;
+}
+.necessary .necessary__wrapper {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.necessary .necessary__wrapper .necessary__left {
+  width: 608px;
+  height: 417px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+}
+.necessary .necessary__wrapper .necessary__left .necessary__left__bottom {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 165px;
+}
+.necessary .necessary__wrapper .necessary__left .necessary__left__bottom .necessary__left__bottom__p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.necessary .necessary__wrapper .necessary__right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.necessary .necessary__wrapper .necessary__right .necessary__right__content {
+  width: 608px;
+  height: 350px;
+  border-radius: 8px;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.necessary .necessary__wrapper .necessary__right .necessary__right__bottom {
+  width: 608px;
+  height: 52px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.necessary .necessary__wrapper .necessary__right .necessary__right__bottom span {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.advantages {
+  width: 100%;
+  background-color: #ededed;
+  padding: 10px;
+}
+.advantages .advantages__cards {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.advantages .advantages__cards .advantages__card {
+  width: 292px;
+  height: 289px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.advantages .advantages__cards .advantages__card img {
+  width: 52px;
+  height: 52px;
+}
+.advantages .advantages__cards .advantages__card h5 {
+  text-align: center;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: #ededed;
+  padding: 50px;
+}
+.about .about__card {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  width: 1240px;
+  height: 367px;
+  background-color: #1F1D14;
+  border-radius: 8px;
+}
+.about .about__card p {
+  color: white;
+  width: 719px;
+  padding: 50px;
+  font-weight: 400;
+}
+.about .about__card .about__img {
+  margin-top: 150px;
+  padding: 260px;
+  cursor: pointer;
+}
+.about .about__companies {
+  margin-top: 70px;
+  background-color: white;
+  border-radius: 8px;
+  width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1F1D14;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 80px;
+}
+.footer .footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.footer .footer__img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer .footer__second {
+  margin-top: 55px;
+  color: white;
+}
+.footer .footer__third {
+  color: white;
+  width: 235px;
+  margin-top: 20px;
+}
+.footer .footer__fourth {
+  margin-top: 90px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer__fourth .footer__actions {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.footer .footer__fourth .footer__actions input {
+  width: 235px;
+  height: 40px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.footer .footer__fourth .footer__actions button {
+  width: 235px;
+  height: 40px;
+  background-color: #FBD029;
+  border: 1px solid #FBD029;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+.footer .footer__fourth .footer__actions button:hover {
+  background-color: transparent;
+  color: white;
+}
