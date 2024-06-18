@@ -1,0 +1,32 @@
+.hero{
+    .hero__wrapper{
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        .hero__left{
+            width: 187px;
+            height: 256px;
+            background-color:rgb(232, 232, 232,);
+            border-radius: 8px;
+            padding: 20px;
+            .hero__bottom{
+                margin-top: 30px;
+            }
+        }
+        .hero__right{
+            width: 714px;
+            height: 674px;
+            background-color: rgb(232, 232, 232);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            padding: 30px;
+        }
+        .hero__left__top{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
